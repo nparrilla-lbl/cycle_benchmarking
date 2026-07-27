@@ -8,10 +8,10 @@ This repository implements an open-source workflow for **bounding circuit perfor
 - **Bound propagation** to compare measured error metrics against predicted bounds
 
 Primary target bound:
-\[
+$$
 d_{\mathrm{TV}}(q,p) \le 1 - F_{\mathrm{SPAM}}\,F_{\mathrm{cyc}}^n
-\]
-with \(F_{\mathrm{cyc}} = 1 - e_F\) estimated from CB.
+$$
+with $F_{\mathrm{cyc}} = 1 - e_F$ estimated from CB.
 
 ---
 
